@@ -9,7 +9,7 @@ Use the following command to expose the ports commonly used by Powershell Empire
 docker run -it -p 80:80 \
 -p 443:443 -p 8080:8080 \
 -p 8081:8081 \
--v ~/Empire/tmp:/tmp 
+-v ~/Empire/tmp:/tmp \
 -v ~/Empire/data:/opt/Empire/data/downloads \
 hoptimumthreat/powershell-empire
 ```
